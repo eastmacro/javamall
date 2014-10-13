@@ -49,7 +49,7 @@
 			<type>goods_list</type>
 			<term>{tagid:'1'}</term>
 			<setting>{type:'default',goodsImgPosition:'top',
-				thumbnail_pic_width:'182px',thumbnail_pic_height:'158px',
+				thumbnail_pic_width:'182',thumbnail_pic_height:'158',
 				showGoodsName:'on', goodsNum:5}</setting>
 			<overflow>visible</overflow>
 		</widget>
