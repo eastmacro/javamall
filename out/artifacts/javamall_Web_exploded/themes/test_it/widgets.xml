@@ -26,10 +26,31 @@
 			<type>member_cart_bar</type>
 			<border>none</border>
 		</widget>
+		<widget id="foothelp">
+			<type>staticDataDetail</type>
+			<catid>11</catid>
+			<id>34</id>
+			<custom_page>footer_cont</custom_page>
+			<folder>customPage</folder>
+		</widget>
 	</page>
 
 
 	<page id="/index.html">
+		<widget id="ad1">
+			<acid>3</acid>
+			<overflow>visible</overflow>
+			<bordertitle />
+			<border>none</border>
+			<type>ad</type>
+		</widget>
+		<widget id="ad2">
+			<acid>3</acid>
+			<overflow>visible</overflow>
+			<bordertitle />
+			<border>none</border>
+			<type>ad</type>
+		</widget>
                <widget id="jqueryAd">
 			<acid>2</acid>
 			<overflow>visible</overflow>
@@ -53,7 +74,34 @@
 				showGoodsName:'on', goodsNum:5}</setting>
 			<overflow>visible</overflow>
 		</widget>
-
+		<widget id="pop_goods">
+			<bordertitle></bordertitle>
+			<border>none</border>
+			<type>goods_list</type>
+			<overflow>visible</overflow>
+			<tabs>
+				[
+				{title:'疯狂抢购',term:{catid:'6'}},
+				{title:'猜你喜欢',term:{catid:'7'}},
+				{title:'热卖商品',term:{catid:'8'}},
+                                {title:'a',term:{catid:'1'}},
+                                {title:'b',term:{catid:'2'}}
+				]
+			</tabs>
+			<setting>{type:'morediv',goodsImgPosition:'top',changeEffect:0,columnnum:5,goodsNum:5,thumbnail_pic_width:'199',thumbnail_pic_height:'142'}</setting>
+			<folder>customPage</folder>
+			<custom_page>pop_goods</custom_page>
+		</widget>
+		<widget id="panic_buy">
+			<bordertitle>热卖商品</bordertitle>
+			<border>hot</border>
+			<type>goods_list</type>
+			<term>{catid:'1'}</term>
+			<setting>{type:'default',goodsImgPosition:'top',
+				thumbnail_pic_width:'182',thumbnail_pic_height:'158',
+				showGoodsName:'on', goodsNum:5}</setting>
+			<overflow>visible</overflow>
+		</widget>
 	</page>
 
 

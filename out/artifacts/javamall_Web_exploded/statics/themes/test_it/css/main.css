@@ -494,7 +494,7 @@ em, i {
     background: #666666;
     height: 40px;
     float: left;
-    margin-left: 220px;
+    margin-left: 223px;
 }
 
 .body-main .g-sub-button, .body-main .g-scroll-menu {
@@ -504,7 +504,7 @@ em, i {
 .g-scroll-menu {
     background: white;
     float: left;
-    margin-left: 220px;
+    margin-left: 232px;
     height: 178px;
 }
 
@@ -513,7 +513,6 @@ em, i {
 }
 
 .g-mid-menu {
-    background: #DCD;
     height: 200px;
     float: left;
 }
@@ -556,4 +555,20 @@ border-top: 1px solid #D5D5D5;
 border-bottom: 1px solid #D5D5D5;
 height: 176px;
 }
-
+.selTabMenu>ul li{
+float:left;
+margin-left:210px;
+}
+#widget_pop_goods_0{
+margin-left:0px
+}
+.g-mid-menutail{
+    position: relative;
+    margin-top: 19px;
+}
+.g-mid-menu-product-last{
+    float: right;
+    width: 199px;
+    height: 178px;
+    background: #FFFFFF;
+}
